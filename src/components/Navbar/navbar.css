@@ -42,39 +42,20 @@
   padding: 0;
 }
 
-/* .right li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-.right li a:hover::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #0087ca;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-} */
-
 .right li {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: #000;
 }
 
 .right li a {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  color: #000;
 }
 
 .right li:after {
+  color: #000;
   content: "";
   position: absolute;
   width: 100%;
@@ -82,7 +63,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: #000;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
