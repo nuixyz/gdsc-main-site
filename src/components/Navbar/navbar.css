@@ -1,0 +1,93 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  font-size: 20px;
+  margin: 0 71px;
+}
+
+.left {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logo img {
+  width: 72px;
+  height: 72px;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 24px;
+  margin: 0;
+}
+
+.subHeading {
+  font-size: 18px;
+  color: #676767;
+  margin: 0;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* .right li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.right li a:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+} */
+
+.right li {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.right li a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.right li:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.right li:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

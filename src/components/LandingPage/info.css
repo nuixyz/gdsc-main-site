@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.dev-logo {
+  height: 202px;
+  width: 202px;
+}
+
+.gdsc {
+  font-size: 64px;
+}
+
+.uni {
+  font-size: 48px;
+  color: #676767;
+}
